@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Poppins:wght@400;500;600;800&display=swap");
+
+/* GLOBAL STYLE FOR THE APPLICATION */
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --logo-color: #e74d4d;
+  --primary-text-color: #2a2a2a;
+  --border-color: #24cec4;
+  --text-color: #093438;
+  --bold-font-weight: 500;
+  --black-font-weight: 600;
+  --medium-font-weight: 400;
+  --regular-font-weight: 300;
+  --text-gray-color: #666666;
+  --background-color: #ffffff;
+  --primary-background-color: #e9e9e9;
+  --link-color: #2e2d2d;
+  --dark-background-color: #dddddd;
+  --font-family: Poppins, sans-serif;
+  --border: 1px solid rgb(221, 221, 221);
+  --border-top: 1px solid rgb(221, 221, 221);
+  --background-gradient-color: linear-gradient(#af7777, #ffffff);
+  --box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-family);
+  /* background-color: var(--primary-background-color); */
+  background: #f8f8f8;
+}
+
+/*Global app madia queries */
+@media (max-width: 667px) {
+  svg {
+    color: var(--text-color);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* MUI Modifications */
+  .MuiCardContent-root:last-child {
+    width: 100% !important;
+    padding-bottom: 4px !important;
+  }
+
+  .MuiLinearProgress-bar {
+    background-color: #c4c4c4 !important;
+  }
+
+  .MuiCircularProgress-circle {
+    color: #c5c5c5 !important;
+  }
+
+  /*End MUI Modifications */
+  hr {
+    width: 100%;
+    border: 1px solid #f0f0f0;
+    margin: 0.5rem 0;
+  }
+
+  .centered {
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main {
+    padding-top: 24%;
+    width: 100%;
+    height: 100%;
+    /* background: #ffffff; */
+  }
+
+  .bottom-Tab-Navigation {
+    width: 100%;
+    height: 9vh;
+    /* position: fixed; */
+    font-family: var(--font-family);
+    display: flex;
+    z-index: 200;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: var(--background-color);
+  }
+
+  .splash {
+    width: 100%;
+    color: var(--logo-color);
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font-family);
+    transition: 0.5s ease;
+  }
+
+  .splash > h1 {
+    font-size: 5rem;
+  }
+
+  .login-screen {
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(#af7777, #ffffff);
+  }
+
+  .login-screen button {
+    width: 70%;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 0.7rem;
+    color: var(--white);
+    border-radius: 25px;
+    background-color: #e74d4d;
+  }
+
+  .login-btn {
+    width: 90% !important;
+    padding: 0.5rem !important;
+    margin-top: 1rem !important;
+    font-weight: bold !important;
+    font-size: 0.7rem !important;
+    color: var(--white) !important;
+    border-radius: 25px !important;
+    background-color: #e74d4d !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .login-screen button:hover {
+    background-color: #e74d4d;
+  }
+
+  .login-screen button > a {
+    color: var(--white);
+  }
+
+  /* single item carousel */
+
+  .carousel.carousel-slider {
+    width: 100%;
+    height: 179px;
+  }
+
+  .carousel .slide {
+    height: 100%;
+    background: none !important;
+  }
+
+  .carousel .slide svg {
+    color: var(--text-color);
+  }
+
+  .carousel .slider {
+    height: 100%;
+  }
+
+  .carousel .slider-wrapper {
+    height: 179px !important;
+  }
+}

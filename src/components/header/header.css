@@ -1,0 +1,90 @@
+/* Mobile size */
+@media (max-width: 667px) {
+  header {
+    width: 100%;
+    /* height: 95px; */
+    position: fixed;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd;
+    background-color: var(--background-color);
+  }
+
+  header .header-bar {
+    width: 100%;
+    display: flex;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header .header-bar h3 a {
+    outline: none;
+    margin-left: 0.5rem;
+    color: var(--border-color);
+    text-decoration: none;
+  }
+
+  header .menu__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header .menu__logo .menu {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--border-color);
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  header .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header .search-container .menu {
+    font-size: 1.5rem !important;
+  }
+
+  header .header-subHeader {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    width: 82%;
+    padding: 0 0.5rem;
+    margin: 0.5rem 0.5rem;
+    border: 1px solid #110c1ddd;
+    border-radius: 25px;
+  }
+
+  header .header-subHeader svg {
+    font-size: 1.3rem !important;
+  }
+
+  header .header-subHeader form {
+    width: 100%;
+  }
+
+  header .header-subHeader form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    font-size: 0.8rem;
+    background: none;
+  }
+
+  header .camera {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid #110c1ddd;
+  }
+}

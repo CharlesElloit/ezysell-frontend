@@ -1,0 +1,221 @@
+@media (max-width: 667px) {
+  .itemDetails-main .itemDetails-gallery {
+    width: 100%;
+    height: 180px;
+    margin: 3.5rem auto 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+
+  .itemDetails-info-simary {
+    background: #ffffff;
+  }
+
+  .itemDetails-info-simary {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background: var(--white);
+  }
+
+  .itemDetails-info-simary h1 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .itemDetails-info-simary p {
+    color: var(--primary-text-color);
+    font-size: 0.9rem;
+  }
+
+  .itemDetails-info-simary .condition {
+    margin: 0.5rem 0;
+  }
+
+  .itemDetails-info-simary .brand {
+    font-size: 0.7rem;
+    margin: 0.5rem 0;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+    color: var(--border-color);
+  }
+  .itemDetails-info-simary .price-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .itemDetails-info-simary .price-info .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .itemDetails-info-simary .price-info h1 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: var(--black-font-weight);
+  }
+
+  .itemDetails-info-simary .price-info h1 sub {
+    font-size: 0.9rem;
+  }
+
+  .itemDetails-info-simary .price-info span {
+    margin: 0 0.5rem;
+    font-size: 0.7rem;
+    color: var(--text-color);
+    font-weight: var(--medium-font-weight);
+  }
+
+  .itemDetails-info-simary .price-info-heart {
+    margin-right: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .itemDetails-info-simary .price-info-heart .price-info-heartIcon {
+    margin: 0.5rem 0.5rem;
+  }
+
+  .title {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    color: var(--text-gray-color);
+  }
+
+  /* delivery and return */
+
+  .delivery__return {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: var(--white);
+  }
+
+  .delivery-info-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .delivery-info-content a {
+    font-size: 0.8rem;
+    color: var(--text-color);
+    text-transform: capitalize;
+  }
+
+  .more-info {
+    margin-top: -0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .more-info svg {
+    margin: 0 0.3rem;
+    font-size: 0.8rem;
+  }
+
+  .delivery__return .delivery-info-title {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .delivery__return p {
+    font-size: 0.8rem;
+    color: #575757;
+  }
+
+  /* Seller info */
+
+  .seller {
+    padding: 0.6rem 0.5rem;
+    margin: 0.5rem;
+    background-color: var(--white);
+  }
+
+  .seller-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .seller-name__membership {
+    display: flex;
+  }
+
+  .seller-name__membership-container {
+    margin: 0.5rem 0 0.8rem 0.7rem;
+  }
+
+  .seller-name__membership-container h4 {
+    font-size: 0.8rem;
+    color: var(--text-color);
+    text-transform: capitalize;
+    font-weight: var(--meduim-font-weight);
+  }
+
+  .seller-name__membership-container span {
+    font-size: 0.7rem;
+    color: var(--text-color);
+    font-weight: var(--medium-font-weight);
+  }
+
+  /* product details description */
+
+  .description {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: var(--white);
+  }
+
+  .description h3,
+  .popular-trendings h3 {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .description p {
+    color: var(--primary-text-color);
+    font-size: 0.9rem;
+  }
+
+  /* trending-items */
+  .popular-trendings {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0 22% 0;
+    padding: 0.5rem;
+    background: var(--white);
+  }
+
+  .popular-trendings-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .trending-items {
+    display: flex;
+    overflow-y: scroll;
+    margin-bottom: 0.5rem;
+  }
+
+  .popular-trendings-header a {
+    font-weight: bold;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+  .trending-items .items {
+    display: flex;
+  }
+
+  .trending-items .trendings-card {
+    margin-bottom: 1.5rem !important;
+    width: 150px !important;
+    border-radius: 5px !important;
+    border: 1px solid #dbdbdb !important;
+    box-shadow: var(--box-shadow) !important;
+  }
+}
